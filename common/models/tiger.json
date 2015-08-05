@@ -26,6 +26,11 @@
     },
     "home": {
       "type": "geopoint"
+    },
+    "id": {
+      "type": "number",
+      "id": true,
+      "index": true
     }
   },
   "validations": [],
