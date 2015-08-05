@@ -1,0 +1,35 @@
+{
+  "name": "tiger",
+  "plural": "tigers",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "furry": {
+      "type": "boolean",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "num_of_paws": {
+      "type": "number"
+    },
+    "age": {
+      "type": "number"
+    },
+    "dob": {
+      "type": "date"
+    },
+    "home": {
+      "type": "geopoint"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
